@@ -1,0 +1,678 @@
+2021-07-19 20:20:06,117 INFO  Logger.cs: 70 - 
+--------------------------------------------------------------------------------
+2021-07-19 20:20:06,367 INFO  Logger.cs: 71 - Logging commencing for SW2URDF exporter
+2021-07-19 20:20:06,387 INFO  Logger.cs: 73 - Commit version 1.6.0-1-g15f4949
+2021-07-19 20:20:06,387 INFO  Logger.cs: 74 - Build version 1.6.7594.29634
+2021-07-19 20:20:06,397 INFO  SwAddin.cs: 192 - Attempting to connect to SW
+2021-07-19 20:20:06,407 INFO  SwAddin.cs: 197 - Setting up callbacks
+2021-07-19 20:20:06,407 INFO  SwAddin.cs: 201 - Setting up command manager
+2021-07-19 20:20:06,407 INFO  SwAddin.cs: 204 - Adding command manager
+2021-07-19 20:20:06,407 INFO  SwAddin.cs: 263 - Adding Assembly export to file menu
+2021-07-19 20:20:06,407 INFO  SwAddin.cs: 272 - Adding Part export to file menu
+2021-07-19 20:20:06,407 INFO  SwAddin.cs: 210 - Adding event handlers
+2021-07-19 20:20:06,798 INFO  SwAddin.cs: 217 - Connecting plugin to SolidWorks
+2021-07-19 20:29:58,628 INFO  SwAddin.cs: 294 - Assembly export called for file AMR(version2.0).SLDASM
+2021-07-19 20:29:58,679 INFO  SwAddin.cs: 299 - Save is required
+2021-07-19 20:29:58,679 INFO  SwAddin.cs: 313 - Saving assembly
+2021-07-19 20:30:00,430 INFO  SwAddin.cs: 316 - Opening property manager
+2021-07-19 20:30:01,699 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from AMR(version2.0).SLDASM
+2021-07-19 20:30:01,966 INFO  ExportHelperExtension.cs: 1136 - Found 65 in AMR(version2.0).SLDASM
+2021-07-19 20:30:01,966 INFO  ExportHelperExtension.cs: 1145 - Found 3 features of type [CoordSys] in AMR(version2.0).SLDASM
+2021-07-19 20:30:01,966 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-19 20:30:01,966 INFO  ExportHelperExtension.cs: 1160 - 11 components to check
+2021-07-19 20:30:01,966 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheel-1
+2021-07-19 20:30:01,966 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheel-1
+2021-07-19 20:30:01,966 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheel-1
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from caster-1
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1136 - Found 33 in caster-1
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in caster-1
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Base-1
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1136 - Found 48 in Base-1
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Base-1
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheelinside-2
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheelinside-2
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheelinside-2
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheel-2
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheel-2
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheel-2
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from casterwheel-1
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1136 - Found 32 in casterwheel-1
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in casterwheel-1
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheelinside-1
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheelinside-1
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheelinside-1
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from caster1-1
+2021-07-19 20:30:01,976 INFO  ExportHelperExtension.cs: 1136 - Found 28 in caster1-1
+2021-07-19 20:30:01,986 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in caster1-1
+2021-07-19 20:30:01,986 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from caster1-3
+2021-07-19 20:30:02,077 INFO  ExportHelperExtension.cs: 1136 - Found 28 in caster1-3
+2021-07-19 20:30:02,077 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in caster1-3
+2021-07-19 20:30:02,077 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from caster-3
+2021-07-19 20:30:02,077 INFO  ExportHelperExtension.cs: 1136 - Found 33 in caster-3
+2021-07-19 20:30:02,087 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in caster-3
+2021-07-19 20:30:02,087 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from casterwheel-3
+2021-07-19 20:30:02,087 INFO  ExportHelperExtension.cs: 1136 - Found 32 in casterwheel-3
+2021-07-19 20:30:02,087 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in casterwheel-3
+2021-07-19 20:30:02,107 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from AMR(version2.0).SLDASM
+2021-07-19 20:30:02,107 INFO  ExportHelperExtension.cs: 1136 - Found 65 in AMR(version2.0).SLDASM
+2021-07-19 20:30:02,107 INFO  ExportHelperExtension.cs: 1145 - Found 1 features of type [RefAxis] in AMR(version2.0).SLDASM
+2021-07-19 20:30:02,107 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-19 20:30:02,107 INFO  ExportHelperExtension.cs: 1160 - 11 components to check
+2021-07-19 20:30:02,107 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheel-1
+2021-07-19 20:30:02,117 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheel-1
+2021-07-19 20:30:02,117 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheel-1
+2021-07-19 20:30:02,117 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from caster-1
+2021-07-19 20:30:02,117 INFO  ExportHelperExtension.cs: 1136 - Found 33 in caster-1
+2021-07-19 20:30:02,117 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in caster-1
+2021-07-19 20:30:02,117 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Base-1
+2021-07-19 20:30:02,117 INFO  ExportHelperExtension.cs: 1136 - Found 48 in Base-1
+2021-07-19 20:30:02,117 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Base-1
+2021-07-19 20:30:02,117 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheelinside-2
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheelinside-2
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheelinside-2
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheel-2
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheel-2
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheel-2
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from casterwheel-1
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1136 - Found 32 in casterwheel-1
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in casterwheel-1
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheelinside-1
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheelinside-1
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheelinside-1
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from caster1-1
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1136 - Found 28 in caster1-1
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in caster1-1
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from caster1-3
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1136 - Found 28 in caster1-3
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in caster1-3
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from caster-3
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1136 - Found 33 in caster-3
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in caster-3
+2021-07-19 20:30:02,127 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from casterwheel-3
+2021-07-19 20:30:02,137 INFO  ExportHelperExtension.cs: 1136 - Found 32 in casterwheel-3
+2021-07-19 20:30:02,137 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in casterwheel-3
+2021-07-19 20:30:03,504 INFO  SwAddin.cs: 339 - Loading config tree
+2021-07-19 20:30:03,544 INFO  ExportPropertyManagerExtension.cs: 520 - Starting new configuration
+2021-07-19 20:30:03,544 INFO  SwAddin.cs: 344 - Showing property manager
+2021-07-19 20:34:26,609 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 20:34:57,116 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 20:35:52,742 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 20:36:08,812 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 20:36:11,219 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 20:37:46,960 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 20:40:24,555 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 20:40:31,325 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 20:40:48,048 INFO  ExportPropertyManager.cs: 422 - Configuration saved
+2021-07-19 20:40:49,954 INFO  ExportHelperExtension.cs: 347 - Creating joint wheel_one
+2021-07-19 20:40:51,126 WARN  ExportHelperExtension.cs: 351 - Creating joint from parent base_link to child wheel_one failed
+2021-07-19 20:40:51,326 INFO  ExportHelperExtension.cs: 347 - Creating joint link_two
+2021-07-19 20:40:51,459 WARN  ExportHelperExtension.cs: 351 - Creating joint from parent base_link to child link_two failed
+2021-07-19 20:40:52,330 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from AMR(version2.0).SLDASM
+2021-07-19 20:40:52,427 INFO  ExportHelperExtension.cs: 1136 - Found 66 in AMR(version2.0).SLDASM
+2021-07-19 20:40:52,427 INFO  ExportHelperExtension.cs: 1145 - Found 3 features of type [CoordSys] in AMR(version2.0).SLDASM
+2021-07-19 20:40:52,427 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-19 20:40:52,427 INFO  ExportHelperExtension.cs: 1160 - 11 components to check
+2021-07-19 20:40:52,437 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheel-1
+2021-07-19 20:40:52,447 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheel-1
+2021-07-19 20:40:52,457 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheel-1
+2021-07-19 20:40:52,457 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from caster-1
+2021-07-19 20:40:52,457 INFO  ExportHelperExtension.cs: 1136 - Found 33 in caster-1
+2021-07-19 20:40:52,457 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in caster-1
+2021-07-19 20:40:52,457 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Base-1
+2021-07-19 20:40:52,457 INFO  ExportHelperExtension.cs: 1136 - Found 48 in Base-1
+2021-07-19 20:40:52,457 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Base-1
+2021-07-19 20:40:52,457 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheelinside-2
+2021-07-19 20:40:52,457 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheelinside-2
+2021-07-19 20:40:52,457 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheelinside-2
+2021-07-19 20:40:52,457 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheel-2
+2021-07-19 20:40:52,467 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheel-2
+2021-07-19 20:40:52,467 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheel-2
+2021-07-19 20:40:52,467 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from casterwheel-1
+2021-07-19 20:40:52,467 INFO  ExportHelperExtension.cs: 1136 - Found 32 in casterwheel-1
+2021-07-19 20:40:52,467 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in casterwheel-1
+2021-07-19 20:40:52,467 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheelinside-1
+2021-07-19 20:40:52,467 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheelinside-1
+2021-07-19 20:40:52,467 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheelinside-1
+2021-07-19 20:40:52,467 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from caster1-1
+2021-07-19 20:40:52,477 INFO  ExportHelperExtension.cs: 1136 - Found 28 in caster1-1
+2021-07-19 20:40:52,477 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in caster1-1
+2021-07-19 20:40:52,477 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from caster1-3
+2021-07-19 20:40:52,477 INFO  ExportHelperExtension.cs: 1136 - Found 28 in caster1-3
+2021-07-19 20:40:52,477 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in caster1-3
+2021-07-19 20:40:52,477 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from caster-3
+2021-07-19 20:40:52,477 INFO  ExportHelperExtension.cs: 1136 - Found 33 in caster-3
+2021-07-19 20:40:52,477 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in caster-3
+2021-07-19 20:40:52,477 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from casterwheel-3
+2021-07-19 20:40:52,477 INFO  ExportHelperExtension.cs: 1136 - Found 32 in casterwheel-3
+2021-07-19 20:40:52,487 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in casterwheel-3
+2021-07-19 20:40:52,487 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from AMR(version2.0).SLDASM
+2021-07-19 20:40:52,487 INFO  ExportHelperExtension.cs: 1136 - Found 66 in AMR(version2.0).SLDASM
+2021-07-19 20:40:52,487 INFO  ExportHelperExtension.cs: 1145 - Found 1 features of type [RefAxis] in AMR(version2.0).SLDASM
+2021-07-19 20:40:52,487 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-19 20:40:52,487 INFO  ExportHelperExtension.cs: 1160 - 11 components to check
+2021-07-19 20:40:52,487 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheel-1
+2021-07-19 20:40:52,487 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheel-1
+2021-07-19 20:40:52,487 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheel-1
+2021-07-19 20:40:52,487 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from caster-1
+2021-07-19 20:40:52,487 INFO  ExportHelperExtension.cs: 1136 - Found 33 in caster-1
+2021-07-19 20:40:52,487 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in caster-1
+2021-07-19 20:40:52,487 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Base-1
+2021-07-19 20:40:52,497 INFO  ExportHelperExtension.cs: 1136 - Found 48 in Base-1
+2021-07-19 20:40:52,497 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Base-1
+2021-07-19 20:40:52,497 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheelinside-2
+2021-07-19 20:40:52,497 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheelinside-2
+2021-07-19 20:40:52,497 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheelinside-2
+2021-07-19 20:40:52,497 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheel-2
+2021-07-19 20:40:52,497 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheel-2
+2021-07-19 20:40:52,497 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheel-2
+2021-07-19 20:40:52,505 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from casterwheel-1
+2021-07-19 20:40:52,505 INFO  ExportHelperExtension.cs: 1136 - Found 32 in casterwheel-1
+2021-07-19 20:40:52,506 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in casterwheel-1
+2021-07-19 20:40:52,506 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheelinside-1
+2021-07-19 20:40:52,506 INFO  ExportHelperExtension.cs: 1136 - Found 29 in wheelinside-1
+2021-07-19 20:40:52,506 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheelinside-1
+2021-07-19 20:40:52,506 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from caster1-1
+2021-07-19 20:40:52,506 INFO  ExportHelperExtension.cs: 1136 - Found 28 in caster1-1
+2021-07-19 20:40:52,506 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in caster1-1
+2021-07-19 20:40:52,506 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from caster1-3
+2021-07-19 20:40:52,506 INFO  ExportHelperExtension.cs: 1136 - Found 28 in caster1-3
+2021-07-19 20:40:52,516 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in caster1-3
+2021-07-19 20:40:52,516 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from caster-3
+2021-07-19 20:40:52,516 INFO  ExportHelperExtension.cs: 1136 - Found 33 in caster-3
+2021-07-19 20:40:52,516 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in caster-3
+2021-07-19 20:40:52,516 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from casterwheel-3
+2021-07-19 20:40:52,516 INFO  ExportHelperExtension.cs: 1136 - Found 32 in casterwheel-3
+2021-07-19 20:40:52,516 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in casterwheel-3
+2021-07-19 20:40:52,650 INFO  ExportPropertyManager.cs: 1142 - AfterClose called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:22:26,126 INFO  SwAddin.cs: 294 - Assembly export called for file Assem1
+2021-07-19 23:22:26,652 INFO  SwAddin.cs: 299 - Save is required
+2021-07-19 23:22:26,653 INFO  SwAddin.cs: 313 - Saving assembly
+2021-07-19 23:22:26,654 INFO  SwAddin.cs: 316 - Opening property manager
+2021-07-19 23:22:26,760 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Assem1
+2021-07-19 23:22:26,890 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Assem1
+2021-07-19 23:22:26,891 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Assem1
+2021-07-19 23:22:26,892 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-19 23:22:26,893 INFO  ExportHelperExtension.cs: 1160 - 5 components to check
+2021-07-19 23:22:26,894 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part4-1
+2021-07-19 23:22:26,896 INFO  ExportHelperExtension.cs: 1136 - Found 40 in Part4-1
+2021-07-19 23:22:26,897 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part4-1
+2021-07-19 23:22:26,898 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part3-1
+2021-07-19 23:22:26,899 INFO  ExportHelperExtension.cs: 1136 - Found 33 in Part3-1
+2021-07-19 23:22:26,900 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part3-1
+2021-07-19 23:22:26,900 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part1-1
+2021-07-19 23:22:26,901 INFO  ExportHelperExtension.cs: 1136 - Found 46 in Part1-1
+2021-07-19 23:22:26,903 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part1-1
+2021-07-19 23:22:26,903 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part2-1
+2021-07-19 23:22:26,905 INFO  ExportHelperExtension.cs: 1136 - Found 31 in Part2-1
+2021-07-19 23:22:26,906 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part2-1
+2021-07-19 23:22:26,907 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part5-1
+2021-07-19 23:22:26,907 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Part5-1
+2021-07-19 23:22:26,909 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part5-1
+2021-07-19 23:22:26,909 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Assem1
+2021-07-19 23:22:26,910 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Assem1
+2021-07-19 23:22:26,911 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Assem1
+2021-07-19 23:22:26,912 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-19 23:22:26,913 INFO  ExportHelperExtension.cs: 1160 - 5 components to check
+2021-07-19 23:22:26,914 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part4-1
+2021-07-19 23:22:26,915 INFO  ExportHelperExtension.cs: 1136 - Found 40 in Part4-1
+2021-07-19 23:22:26,916 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part4-1
+2021-07-19 23:22:26,916 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part3-1
+2021-07-19 23:22:26,917 INFO  ExportHelperExtension.cs: 1136 - Found 33 in Part3-1
+2021-07-19 23:22:26,918 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part3-1
+2021-07-19 23:22:26,920 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part1-1
+2021-07-19 23:22:26,927 INFO  ExportHelperExtension.cs: 1136 - Found 46 in Part1-1
+2021-07-19 23:22:26,928 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part1-1
+2021-07-19 23:22:26,929 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part2-1
+2021-07-19 23:22:26,929 INFO  ExportHelperExtension.cs: 1136 - Found 31 in Part2-1
+2021-07-19 23:22:26,931 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part2-1
+2021-07-19 23:22:26,931 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part5-1
+2021-07-19 23:22:26,932 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Part5-1
+2021-07-19 23:22:26,933 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part5-1
+2021-07-19 23:22:28,732 INFO  SwAddin.cs: 339 - Loading config tree
+2021-07-19 23:22:28,733 INFO  ExportPropertyManagerExtension.cs: 520 - Starting new configuration
+2021-07-19 23:22:28,755 INFO  SwAddin.cs: 344 - Showing property manager
+2021-07-19 23:27:01,471 INFO  ExportPropertyManager.cs: 416 - Configuration canceled
+2021-07-19 23:27:01,827 INFO  ExportPropertyManager.cs: 1142 - AfterClose called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:34:43,915 INFO  SwAddin.cs: 294 - Assembly export called for file Assem1
+2021-07-19 23:34:43,915 INFO  SwAddin.cs: 299 - Save is required
+2021-07-19 23:34:43,915 INFO  SwAddin.cs: 313 - Saving assembly
+2021-07-19 23:34:43,915 INFO  SwAddin.cs: 316 - Opening property manager
+2021-07-19 23:34:43,915 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Assem1
+2021-07-19 23:34:43,915 INFO  ExportHelperExtension.cs: 1136 - Found 44 in Assem1
+2021-07-19 23:34:43,915 INFO  ExportHelperExtension.cs: 1145 - Found 1 features of type [CoordSys] in Assem1
+2021-07-19 23:34:43,915 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-19 23:34:43,915 INFO  ExportHelperExtension.cs: 1160 - 5 components to check
+2021-07-19 23:34:43,925 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part4-1
+2021-07-19 23:34:43,925 INFO  ExportHelperExtension.cs: 1136 - Found 40 in Part4-1
+2021-07-19 23:34:43,925 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part4-1
+2021-07-19 23:34:43,925 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part3-1
+2021-07-19 23:34:43,925 INFO  ExportHelperExtension.cs: 1136 - Found 33 in Part3-1
+2021-07-19 23:34:43,925 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part3-1
+2021-07-19 23:34:43,925 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part1-1
+2021-07-19 23:34:43,925 INFO  ExportHelperExtension.cs: 1136 - Found 46 in Part1-1
+2021-07-19 23:34:43,925 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part1-1
+2021-07-19 23:34:43,925 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part2-1
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1136 - Found 31 in Part2-1
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part2-1
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part5-1
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Part5-1
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part5-1
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Assem1
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1136 - Found 44 in Assem1
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1145 - Found 4 features of type [RefAxis] in Assem1
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1160 - 5 components to check
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part4-1
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1136 - Found 40 in Part4-1
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part4-1
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part3-1
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1136 - Found 33 in Part3-1
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part3-1
+2021-07-19 23:34:43,935 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part1-1
+2021-07-19 23:34:43,965 INFO  ExportHelperExtension.cs: 1136 - Found 46 in Part1-1
+2021-07-19 23:34:43,965 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part1-1
+2021-07-19 23:34:43,965 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part2-1
+2021-07-19 23:34:43,965 INFO  ExportHelperExtension.cs: 1136 - Found 31 in Part2-1
+2021-07-19 23:34:44,115 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part2-1
+2021-07-19 23:34:44,115 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part5-1
+2021-07-19 23:34:44,115 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Part5-1
+2021-07-19 23:34:44,115 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part5-1
+2021-07-19 23:34:44,336 INFO  SwAddin.cs: 339 - Loading config tree
+2021-07-19 23:34:44,336 INFO  ExportPropertyManagerExtension.cs: 520 - Starting new configuration
+2021-07-19 23:34:44,336 INFO  SwAddin.cs: 344 - Showing property manager
+2021-07-19 23:35:02,258 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:35:35,048 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:36:00,652 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:36:04,783 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:36:12,565 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:36:37,465 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:36:39,111 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:36:52,584 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:37:16,340 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:37:24,183 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:37:35,114 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:37:57,399 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:37:59,301 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:38:10,946 INFO  ExportPropertyManager.cs: 422 - Configuration saved
+2021-07-19 23:39:58,686 INFO  ExportHelperExtension.cs: 347 - Creating joint link_one
+2021-07-19 23:41:14,782 INFO  ExportHelperExtension.cs: 1397 - Fixing components for base_link
+2021-07-19 23:41:19,248 INFO  ExportHelperExtension.cs: 1402 - Fixing 23
+2021-07-19 23:41:19,418 INFO  ExportHelperExtension.cs: 1409 - Component 23 is already fixed
+2021-07-19 23:42:55,931 INFO  ExportHelperExtension.cs: 832 - R1: 0, 0
+2021-07-19 23:42:55,941 INFO  ExportHelperExtension.cs: 841 - R2: 0, 0
+2021-07-19 23:42:55,941 INFO  ExportHelperExtension.cs: 849 - L1: 0
+2021-07-19 23:42:55,941 INFO  ExportHelperExtension.cs: 857 - L2: 0
+2021-07-19 23:42:59,459 ERROR ExportPropertyManager.cs: 399 - Exception caught handling button press 17
+System.Exception: Reference sketch  does not exist
+   at SW2URDF.URDFExport.ExportHelper.AddSketchGeometry(Origin Origin) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 696
+   at SW2URDF.URDFExport.ExportHelper.CreateRefOrigin(Origin Origin, String CoordinateSystemName) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 494
+   at SW2URDF.URDFExport.ExportHelper.CreateRefOrigin(Joint Joint) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 486
+   at SW2URDF.URDFExport.ExportHelper.CreateJoint(Link parent, Link child) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 454
+   at SW2URDF.URDFExport.ExportHelper.CreateLinkFromComponents(Link parent, LinkNode node) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 348
+   at SW2URDF.URDFExport.ExportHelper.CreateLink(LinkNode node, Int32 count) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 215
+   at SW2URDF.URDFExport.ExportHelper.CreateLink(LinkNode node, Int32 count) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 227
+   at SW2URDF.URDFExport.ExportHelper.CreateRobotFromTreeView(LinkNode baseNode) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 169
+   at SW2URDF.URDFExport.ExportPropertyManager.ExportButtonPress() in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportPropertyManager.cs:line 239
+   at SW2URDF.URDFExport.ExportPropertyManager.OnButtonPress(Int32 Id) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportPropertyManager.cs:line 381
+   at SW2URDF.URDFExport.ExportPropertyManager.SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnButtonPress(Int32 Id) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportPropertyManager.cs:line 399
+2021-07-19 23:43:07,861 INFO  ExportPropertyManager.cs: 1142 - AfterClose called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:47:09,515 INFO  SwAddin.cs: 294 - Assembly export called for file Assem1
+2021-07-19 23:47:09,825 INFO  SwAddin.cs: 299 - Save is required
+2021-07-19 23:47:09,825 INFO  SwAddin.cs: 313 - Saving assembly
+2021-07-19 23:47:09,825 INFO  SwAddin.cs: 316 - Opening property manager
+2021-07-19 23:47:10,005 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Assem1
+2021-07-19 23:47:10,105 INFO  ExportHelperExtension.cs: 1136 - Found 44 in Assem1
+2021-07-19 23:47:10,155 INFO  ExportHelperExtension.cs: 1145 - Found 1 features of type [CoordSys] in Assem1
+2021-07-19 23:47:10,155 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-19 23:47:10,256 INFO  ExportHelperExtension.cs: 1160 - 5 components to check
+2021-07-19 23:47:10,256 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part4-1
+2021-07-19 23:47:10,396 INFO  ExportHelperExtension.cs: 1136 - Found 40 in Part4-1
+2021-07-19 23:47:10,396 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part4-1
+2021-07-19 23:47:10,396 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part3-1
+2021-07-19 23:47:10,476 INFO  ExportHelperExtension.cs: 1136 - Found 33 in Part3-1
+2021-07-19 23:47:10,476 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part3-1
+2021-07-19 23:47:10,476 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part1-1
+2021-07-19 23:47:10,516 INFO  ExportHelperExtension.cs: 1136 - Found 46 in Part1-1
+2021-07-19 23:47:10,516 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part1-1
+2021-07-19 23:47:10,526 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part2-1
+2021-07-19 23:47:10,546 INFO  ExportHelperExtension.cs: 1136 - Found 31 in Part2-1
+2021-07-19 23:47:10,546 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part2-1
+2021-07-19 23:47:10,546 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part5-1
+2021-07-19 23:47:10,556 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Part5-1
+2021-07-19 23:47:10,556 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part5-1
+2021-07-19 23:47:10,596 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Assem1
+2021-07-19 23:47:10,596 INFO  ExportHelperExtension.cs: 1136 - Found 44 in Assem1
+2021-07-19 23:47:10,596 INFO  ExportHelperExtension.cs: 1145 - Found 4 features of type [RefAxis] in Assem1
+2021-07-19 23:47:10,596 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-19 23:47:10,596 INFO  ExportHelperExtension.cs: 1160 - 5 components to check
+2021-07-19 23:47:10,596 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part4-1
+2021-07-19 23:47:10,596 INFO  ExportHelperExtension.cs: 1136 - Found 40 in Part4-1
+2021-07-19 23:47:10,606 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part4-1
+2021-07-19 23:47:10,606 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part3-1
+2021-07-19 23:47:10,606 INFO  ExportHelperExtension.cs: 1136 - Found 33 in Part3-1
+2021-07-19 23:47:10,606 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part3-1
+2021-07-19 23:47:10,606 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part1-1
+2021-07-19 23:47:10,606 INFO  ExportHelperExtension.cs: 1136 - Found 46 in Part1-1
+2021-07-19 23:47:10,606 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part1-1
+2021-07-19 23:47:10,606 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part2-1
+2021-07-19 23:47:10,656 INFO  ExportHelperExtension.cs: 1136 - Found 31 in Part2-1
+2021-07-19 23:47:10,656 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part2-1
+2021-07-19 23:47:10,656 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part5-1
+2021-07-19 23:47:10,656 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Part5-1
+2021-07-19 23:47:10,656 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part5-1
+2021-07-19 23:47:30,565 INFO  SwAddin.cs: 339 - Loading config tree
+2021-07-19 23:47:30,565 INFO  ExportPropertyManagerExtension.cs: 520 - Starting new configuration
+2021-07-19 23:47:30,635 INFO  SwAddin.cs: 344 - Showing property manager
+2021-07-19 23:47:39,263 INFO  ExportPropertyManager.cs: 416 - Configuration canceled
+2021-07-19 23:47:39,821 INFO  ExportPropertyManager.cs: 1142 - AfterClose called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:48:27,711 INFO  SwAddin.cs: 294 - Assembly export called for file Assem1
+2021-07-19 23:48:27,711 INFO  SwAddin.cs: 299 - Save is required
+2021-07-19 23:48:27,711 INFO  SwAddin.cs: 313 - Saving assembly
+2021-07-19 23:48:27,711 INFO  SwAddin.cs: 316 - Opening property manager
+2021-07-19 23:48:27,711 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Assem1
+2021-07-19 23:48:27,711 INFO  ExportHelperExtension.cs: 1136 - Found 44 in Assem1
+2021-07-19 23:48:27,711 INFO  ExportHelperExtension.cs: 1145 - Found 1 features of type [CoordSys] in Assem1
+2021-07-19 23:48:27,711 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-19 23:48:27,721 INFO  ExportHelperExtension.cs: 1160 - 5 components to check
+2021-07-19 23:48:27,721 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part4-1
+2021-07-19 23:48:27,721 INFO  ExportHelperExtension.cs: 1136 - Found 40 in Part4-1
+2021-07-19 23:48:27,721 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part4-1
+2021-07-19 23:48:27,721 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part3-1
+2021-07-19 23:48:27,721 INFO  ExportHelperExtension.cs: 1136 - Found 33 in Part3-1
+2021-07-19 23:48:27,721 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part3-1
+2021-07-19 23:48:27,721 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part1-1
+2021-07-19 23:48:27,721 INFO  ExportHelperExtension.cs: 1136 - Found 46 in Part1-1
+2021-07-19 23:48:27,721 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part1-1
+2021-07-19 23:48:27,731 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part2-1
+2021-07-19 23:48:27,731 INFO  ExportHelperExtension.cs: 1136 - Found 31 in Part2-1
+2021-07-19 23:48:27,731 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part2-1
+2021-07-19 23:48:27,731 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part5-1
+2021-07-19 23:48:27,731 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Part5-1
+2021-07-19 23:48:27,731 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part5-1
+2021-07-19 23:48:27,731 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Assem1
+2021-07-19 23:48:27,731 INFO  ExportHelperExtension.cs: 1136 - Found 44 in Assem1
+2021-07-19 23:48:27,731 INFO  ExportHelperExtension.cs: 1145 - Found 4 features of type [RefAxis] in Assem1
+2021-07-19 23:48:27,731 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-19 23:48:27,731 INFO  ExportHelperExtension.cs: 1160 - 5 components to check
+2021-07-19 23:48:27,731 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part4-1
+2021-07-19 23:48:27,731 INFO  ExportHelperExtension.cs: 1136 - Found 40 in Part4-1
+2021-07-19 23:48:27,741 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part4-1
+2021-07-19 23:48:27,741 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part3-1
+2021-07-19 23:48:27,741 INFO  ExportHelperExtension.cs: 1136 - Found 33 in Part3-1
+2021-07-19 23:48:27,741 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part3-1
+2021-07-19 23:48:27,741 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part1-1
+2021-07-19 23:48:27,741 INFO  ExportHelperExtension.cs: 1136 - Found 46 in Part1-1
+2021-07-19 23:48:27,741 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part1-1
+2021-07-19 23:48:27,791 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part2-1
+2021-07-19 23:48:27,811 INFO  ExportHelperExtension.cs: 1136 - Found 31 in Part2-1
+2021-07-19 23:48:27,811 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part2-1
+2021-07-19 23:48:27,811 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part5-1
+2021-07-19 23:48:27,811 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Part5-1
+2021-07-19 23:48:27,811 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part5-1
+2021-07-19 23:48:28,141 INFO  SwAddin.cs: 339 - Loading config tree
+2021-07-19 23:48:28,141 INFO  ExportPropertyManagerExtension.cs: 520 - Starting new configuration
+2021-07-19 23:48:28,151 INFO  SwAddin.cs: 344 - Showing property manager
+2021-07-19 23:48:32,505 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:48:35,095 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:48:58,756 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:49:00,877 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:49:18,658 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:49:43,614 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:49:45,668 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:50:06,478 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:50:23,992 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:50:25,718 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:50:40,561 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:51:04,640 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:51:11,635 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-19 23:51:29,962 INFO  ExportPropertyManager.cs: 422 - Configuration saved
+2021-07-19 23:51:31,593 INFO  ExportHelperExtension.cs: 347 - Creating joint link_one
+2021-07-19 23:51:31,623 INFO  ExportHelperExtension.cs: 1397 - Fixing components for base_link
+2021-07-19 23:51:31,632 INFO  ExportHelperExtension.cs: 1402 - Fixing 23
+2021-07-19 23:51:31,632 INFO  ExportHelperExtension.cs: 1409 - Component 23 is already fixed
+2021-07-19 23:51:33,334 INFO  : 0 - R1: 1, System.__ComObject, 1, System.Double[]
+2021-07-19 23:51:33,545 INFO  ExportHelperExtension.cs: 841 - R2: 0, 0
+2021-07-19 23:51:33,545 INFO  ExportHelperExtension.cs: 849 - L1: 0
+2021-07-19 23:51:33,545 INFO  ExportHelperExtension.cs: 857 - L2: 0
+2021-07-19 23:51:34,206 ERROR ExportPropertyManager.cs: 399 - Exception caught handling button press 17
+System.Exception: Reference sketch  does not exist
+   at SW2URDF.URDFExport.ExportHelper.AddSketchGeometry(Origin Origin) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 696
+   at SW2URDF.URDFExport.ExportHelper.CreateRefOrigin(Origin Origin, String CoordinateSystemName) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 494
+   at SW2URDF.URDFExport.ExportHelper.CreateRefOrigin(Joint Joint) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 486
+   at SW2URDF.URDFExport.ExportHelper.CreateJoint(Link parent, Link child) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 454
+   at SW2URDF.URDFExport.ExportHelper.CreateLinkFromComponents(Link parent, LinkNode node) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 348
+   at SW2URDF.URDFExport.ExportHelper.CreateLink(LinkNode node, Int32 count) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 215
+   at SW2URDF.URDFExport.ExportHelper.CreateLink(LinkNode node, Int32 count) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 227
+   at SW2URDF.URDFExport.ExportHelper.CreateRobotFromTreeView(LinkNode baseNode) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportHelperExtension.cs:line 169
+   at SW2URDF.URDFExport.ExportPropertyManager.ExportButtonPress() in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportPropertyManager.cs:line 239
+   at SW2URDF.URDFExport.ExportPropertyManager.OnButtonPress(Int32 Id) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportPropertyManager.cs:line 381
+   at SW2URDF.URDFExport.ExportPropertyManager.SolidWorks.Interop.swpublished.IPropertyManagerPage2Handler9.OnButtonPress(Int32 Id) in C:\Users\Stephen Brawner\workspace\solidworks_urdf_exporter\SW2URDF\URDFExport\ExportPropertyManager.cs:line 399
+2021-07-19 23:51:34,306 INFO  ExportPropertyManager.cs: 1142 - AfterClose called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:00:11,792 INFO  SwAddin.cs: 294 - Assembly export called for file Assem1
+2021-07-20 00:00:11,792 INFO  SwAddin.cs: 299 - Save is required
+2021-07-20 00:00:11,792 INFO  SwAddin.cs: 313 - Saving assembly
+2021-07-20 00:00:11,792 INFO  SwAddin.cs: 316 - Opening property manager
+2021-07-20 00:00:11,792 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Assem1
+2021-07-20 00:00:11,792 INFO  ExportHelperExtension.cs: 1136 - Found 50 in Assem1
+2021-07-20 00:00:11,792 INFO  ExportHelperExtension.cs: 1145 - Found 4 features of type [CoordSys] in Assem1
+2021-07-20 00:00:11,792 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-20 00:00:11,802 INFO  ExportHelperExtension.cs: 1160 - 5 components to check
+2021-07-20 00:00:11,802 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part4-1
+2021-07-20 00:00:11,802 INFO  ExportHelperExtension.cs: 1136 - Found 40 in Part4-1
+2021-07-20 00:00:11,802 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part4-1
+2021-07-20 00:00:11,802 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part3-1
+2021-07-20 00:00:11,802 INFO  ExportHelperExtension.cs: 1136 - Found 33 in Part3-1
+2021-07-20 00:00:11,802 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part3-1
+2021-07-20 00:00:11,802 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part1-1
+2021-07-20 00:00:11,802 INFO  ExportHelperExtension.cs: 1136 - Found 46 in Part1-1
+2021-07-20 00:00:11,802 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part1-1
+2021-07-20 00:00:11,802 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part2-1
+2021-07-20 00:00:11,802 INFO  ExportHelperExtension.cs: 1136 - Found 31 in Part2-1
+2021-07-20 00:00:11,802 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part2-1
+2021-07-20 00:00:11,812 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part5-1
+2021-07-20 00:00:11,922 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Part5-1
+2021-07-20 00:00:11,922 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part5-1
+2021-07-20 00:00:11,922 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Assem1
+2021-07-20 00:00:11,922 INFO  ExportHelperExtension.cs: 1136 - Found 50 in Assem1
+2021-07-20 00:00:11,922 INFO  ExportHelperExtension.cs: 1145 - Found 4 features of type [RefAxis] in Assem1
+2021-07-20 00:00:11,922 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-20 00:00:11,922 INFO  ExportHelperExtension.cs: 1160 - 5 components to check
+2021-07-20 00:00:11,922 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part4-1
+2021-07-20 00:00:11,922 INFO  ExportHelperExtension.cs: 1136 - Found 40 in Part4-1
+2021-07-20 00:00:11,922 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part4-1
+2021-07-20 00:00:11,932 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part3-1
+2021-07-20 00:00:11,932 INFO  ExportHelperExtension.cs: 1136 - Found 33 in Part3-1
+2021-07-20 00:00:11,932 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part3-1
+2021-07-20 00:00:11,932 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part1-1
+2021-07-20 00:00:11,982 INFO  ExportHelperExtension.cs: 1136 - Found 46 in Part1-1
+2021-07-20 00:00:11,982 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part1-1
+2021-07-20 00:00:11,982 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part2-1
+2021-07-20 00:00:11,982 INFO  ExportHelperExtension.cs: 1136 - Found 31 in Part2-1
+2021-07-20 00:00:11,982 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part2-1
+2021-07-20 00:00:11,982 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part5-1
+2021-07-20 00:00:11,982 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Part5-1
+2021-07-20 00:00:11,982 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part5-1
+2021-07-20 00:00:12,232 INFO  SwAddin.cs: 339 - Loading config tree
+2021-07-20 00:00:12,232 INFO  ExportPropertyManagerExtension.cs: 520 - Starting new configuration
+2021-07-20 00:00:12,232 INFO  SwAddin.cs: 344 - Showing property manager
+2021-07-20 00:00:22,285 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:00:26,754 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:00:40,521 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:00:42,829 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:00:44,528 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:00:50,384 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:01:32,648 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:01:56,764 INFO  ExportPropertyManager.cs: 416 - Configuration canceled
+2021-07-20 00:01:56,854 INFO  ExportPropertyManager.cs: 1142 - AfterClose called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:02:35,617 INFO  SwAddin.cs: 294 - Assembly export called for file Assem1
+2021-07-20 00:02:35,617 INFO  SwAddin.cs: 299 - Save is required
+2021-07-20 00:02:35,617 INFO  SwAddin.cs: 313 - Saving assembly
+2021-07-20 00:02:35,617 INFO  SwAddin.cs: 316 - Opening property manager
+2021-07-20 00:02:35,617 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Assem1
+2021-07-20 00:02:35,617 INFO  ExportHelperExtension.cs: 1136 - Found 52 in Assem1
+2021-07-20 00:02:35,757 INFO  ExportHelperExtension.cs: 1145 - Found 5 features of type [CoordSys] in Assem1
+2021-07-20 00:02:35,757 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-20 00:02:35,757 INFO  ExportHelperExtension.cs: 1160 - 5 components to check
+2021-07-20 00:02:35,757 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part4-1
+2021-07-20 00:02:35,777 INFO  ExportHelperExtension.cs: 1136 - Found 40 in Part4-1
+2021-07-20 00:02:35,777 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part4-1
+2021-07-20 00:02:35,777 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part3-1
+2021-07-20 00:02:35,777 INFO  ExportHelperExtension.cs: 1136 - Found 33 in Part3-1
+2021-07-20 00:02:35,777 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part3-1
+2021-07-20 00:02:35,777 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part1-1
+2021-07-20 00:02:35,777 INFO  ExportHelperExtension.cs: 1136 - Found 46 in Part1-1
+2021-07-20 00:02:35,777 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part1-1
+2021-07-20 00:02:35,777 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part2-1
+2021-07-20 00:02:35,777 INFO  ExportHelperExtension.cs: 1136 - Found 31 in Part2-1
+2021-07-20 00:02:35,777 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part2-1
+2021-07-20 00:02:35,777 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part5-1
+2021-07-20 00:02:35,787 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Part5-1
+2021-07-20 00:02:35,787 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part5-1
+2021-07-20 00:02:35,787 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Assem1
+2021-07-20 00:02:35,787 INFO  ExportHelperExtension.cs: 1136 - Found 52 in Assem1
+2021-07-20 00:02:35,787 INFO  ExportHelperExtension.cs: 1145 - Found 4 features of type [RefAxis] in Assem1
+2021-07-20 00:02:35,787 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-20 00:02:35,787 INFO  ExportHelperExtension.cs: 1160 - 5 components to check
+2021-07-20 00:02:35,787 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part4-1
+2021-07-20 00:02:35,787 INFO  ExportHelperExtension.cs: 1136 - Found 40 in Part4-1
+2021-07-20 00:02:35,787 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part4-1
+2021-07-20 00:02:35,787 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part3-1
+2021-07-20 00:02:35,787 INFO  ExportHelperExtension.cs: 1136 - Found 33 in Part3-1
+2021-07-20 00:02:35,787 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part3-1
+2021-07-20 00:02:35,797 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part1-1
+2021-07-20 00:02:35,797 INFO  ExportHelperExtension.cs: 1136 - Found 46 in Part1-1
+2021-07-20 00:02:35,797 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part1-1
+2021-07-20 00:02:35,797 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part2-1
+2021-07-20 00:02:35,797 INFO  ExportHelperExtension.cs: 1136 - Found 31 in Part2-1
+2021-07-20 00:02:35,797 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part2-1
+2021-07-20 00:02:35,797 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part5-1
+2021-07-20 00:02:35,797 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Part5-1
+2021-07-20 00:02:35,797 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part5-1
+2021-07-20 00:02:36,027 INFO  SwAddin.cs: 339 - Loading config tree
+2021-07-20 00:02:36,027 INFO  ExportPropertyManagerExtension.cs: 520 - Starting new configuration
+2021-07-20 00:02:36,037 INFO  SwAddin.cs: 344 - Showing property manager
+2021-07-20 00:02:40,265 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:02:45,610 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:03:03,770 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:03:07,835 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:03:09,645 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:03:16,869 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:03:32,926 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:03:38,983 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:03:44,725 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:03:53,074 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:04:14,491 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:04:19,484 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:04:23,569 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:04:32,845 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:04:48,092 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:04:55,225 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:05:05,025 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:05:09,705 INFO  ExportPropertyManager.cs: 1018 - OnComboboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2021-07-20 00:05:12,961 INFO  ExportHelperExtension.cs: 347 - Creating joint link_one
+2021-07-20 00:05:14,108 WARN  ExportHelperExtension.cs: 351 - Creating joint from parent base_link to child link_one failed
+2021-07-20 00:05:14,177 INFO  ExportHelperExtension.cs: 347 - Creating joint link_two
+2021-07-20 00:05:14,267 WARN  ExportHelperExtension.cs: 351 - Creating joint from parent link_one to child link_two failed
+2021-07-20 00:05:14,417 INFO  ExportHelperExtension.cs: 347 - Creating joint link_three
+2021-07-20 00:05:14,487 WARN  ExportHelperExtension.cs: 351 - Creating joint from parent link_two to child link_three failed
+2021-07-20 00:05:14,577 INFO  ExportHelperExtension.cs: 347 - Creating joint link_four
+2021-07-20 00:05:14,637 WARN  ExportHelperExtension.cs: 351 - Creating joint from parent link_three to child link_four failed
+2021-07-20 00:05:15,196 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Assem1
+2021-07-20 00:05:15,236 INFO  ExportHelperExtension.cs: 1136 - Found 52 in Assem1
+2021-07-20 00:05:15,236 INFO  ExportHelperExtension.cs: 1145 - Found 5 features of type [CoordSys] in Assem1
+2021-07-20 00:05:15,236 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-20 00:05:15,236 INFO  ExportHelperExtension.cs: 1160 - 5 components to check
+2021-07-20 00:05:15,236 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part4-1
+2021-07-20 00:05:15,246 INFO  ExportHelperExtension.cs: 1136 - Found 40 in Part4-1
+2021-07-20 00:05:15,246 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part4-1
+2021-07-20 00:05:15,246 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part3-1
+2021-07-20 00:05:15,246 INFO  ExportHelperExtension.cs: 1136 - Found 33 in Part3-1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part3-1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part1-1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1136 - Found 46 in Part1-1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part1-1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part2-1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1136 - Found 31 in Part2-1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part2-1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Part5-1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Part5-1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Part5-1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Assem1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1136 - Found 52 in Assem1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1145 - Found 4 features of type [RefAxis] in Assem1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1160 - 5 components to check
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part4-1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1136 - Found 40 in Part4-1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part4-1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part3-1
+2021-07-20 00:05:15,256 INFO  ExportHelperExtension.cs: 1136 - Found 33 in Part3-1
+2021-07-20 00:05:15,266 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part3-1
+2021-07-20 00:05:15,266 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part1-1
+2021-07-20 00:05:15,266 INFO  ExportHelperExtension.cs: 1136 - Found 46 in Part1-1
+2021-07-20 00:05:15,266 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part1-1
+2021-07-20 00:05:15,266 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part2-1
+2021-07-20 00:05:15,266 INFO  ExportHelperExtension.cs: 1136 - Found 31 in Part2-1
+2021-07-20 00:05:15,266 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part2-1
+2021-07-20 00:05:15,266 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Part5-1
+2021-07-20 00:05:15,266 INFO  ExportHelperExtension.cs: 1136 - Found 34 in Part5-1
+2021-07-20 00:05:15,266 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Part5-1
+2021-07-20 00:14:08,947 INFO  AssemblyExportForm.cs: 253 - Completing URDF export
+2021-07-20 00:14:59,399 INFO  AssemblyExportForm.cs: 309 - Saving URDF package to E:\my_arm\my_arm
+2021-07-20 00:14:59,629 INFO  ExportHelper.cs: 147 - Beginning the export process
+2021-07-20 00:14:59,719 INFO  ExportHelper.cs: 153 - Creating package directories with name my_arm and save path E:\my_arm
+2021-07-20 00:15:01,726 INFO  ExportHelper.cs: 162 - Creating CMakeLists.txt at E:\my_arm\my_arm\CMakeLists.txt
+2021-07-20 00:15:02,007 INFO  ExportHelper.cs: 166 - Creating joint names config at E:\my_arm\my_arm\config\joint_names_my_arm.yaml
+2021-07-20 00:15:02,007 INFO  ExportHelper.cs: 170 - Creating package.xml at E:\my_arm\my_arm\package.xml
+2021-07-20 00:15:02,672 INFO  PackageXMLWriter.cs: 21 - Creating package.xml at E:\my_arm\my_arm\package.xml
+2021-07-20 00:15:02,983 INFO  ExportHelper.cs: 177 - Creating RVIZ launch file in E:\my_arm\my_arm\launch\
+2021-07-20 00:15:03,082 INFO  ExportHelper.cs: 182 - Creating Gazebo launch file in E:\my_arm\my_arm\launch\
+2021-07-20 00:15:03,082 INFO  ExportHelper.cs: 187 - Saving existing STL preferences
+2021-07-20 00:15:03,082 INFO  ExportHelper.cs: 450 - Saving users preferences
+2021-07-20 00:15:03,132 INFO  ExportHelper.cs: 190 - Modifying STL preferences
+2021-07-20 00:15:03,132 INFO  ExportHelper.cs: 464 - Setting STL preferences
+2021-07-20 00:15:03,294 INFO  ExportHelper.cs: 196 - Found 0 hidden components 
+2021-07-20 00:15:03,294 INFO  ExportHelper.cs: 197 - Hiding all components
+2021-07-20 00:15:04,357 INFO  ExportHelper.cs: 204 - Beginning individual files export
+2021-07-20 00:15:04,357 INFO  ExportHelper.cs: 270 - Exporting link: base_link
+2021-07-20 00:15:04,387 INFO  ExportHelper.cs: 272 - Link base_link has 1 children
+2021-07-20 00:15:04,387 INFO  ExportHelper.cs: 270 - Exporting link: link_one
+2021-07-20 00:15:04,387 INFO  ExportHelper.cs: 272 - Link link_one has 1 children
+2021-07-20 00:15:04,387 INFO  ExportHelper.cs: 270 - Exporting link: link_two
+2021-07-20 00:15:04,387 INFO  ExportHelper.cs: 272 - Link link_two has 1 children
+2021-07-20 00:15:04,387 INFO  ExportHelper.cs: 270 - Exporting link: link_three
+2021-07-20 00:15:04,387 INFO  ExportHelper.cs: 272 - Link link_three has 1 children
+2021-07-20 00:15:04,387 INFO  ExportHelper.cs: 270 - Exporting link: link_four
+2021-07-20 00:15:04,387 INFO  ExportHelper.cs: 272 - Link link_four has 0 children
+2021-07-20 00:15:04,397 INFO  ExportHelper.cs: 317 - link_four: Exporting STL with coordinate frame Coordinate System4
+2021-07-20 00:15:04,397 INFO  ExportHelper.cs: 322 - link_four: Reference geometry name 
+2021-07-20 00:15:04,587 INFO  ExportHelper.cs: 330 - Saving STL to E:\my_arm\my_arm\meshes\link_four.STL
+2021-07-20 00:15:07,537 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2021-07-20 00:15:07,537 INFO  ExportHelper.cs: 317 - link_three: Exporting STL with coordinate frame Coordinate System3
+2021-07-20 00:15:07,537 INFO  ExportHelper.cs: 322 - link_three: Reference geometry name 
+2021-07-20 00:15:07,597 INFO  ExportHelper.cs: 330 - Saving STL to E:\my_arm\my_arm\meshes\link_three.STL
+2021-07-20 00:15:08,093 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2021-07-20 00:15:08,093 INFO  ExportHelper.cs: 317 - link_two: Exporting STL with coordinate frame Coordinate System5
+2021-07-20 00:15:08,093 INFO  ExportHelper.cs: 322 - link_two: Reference geometry name 
+2021-07-20 00:15:08,143 INFO  ExportHelper.cs: 330 - Saving STL to E:\my_arm\my_arm\meshes\link_two.STL
+2021-07-20 00:15:08,463 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2021-07-20 00:15:08,463 INFO  ExportHelper.cs: 317 - link_one: Exporting STL with coordinate frame Coordinate System2
+2021-07-20 00:15:08,463 INFO  ExportHelper.cs: 322 - link_one: Reference geometry name 
+2021-07-20 00:15:08,523 INFO  ExportHelper.cs: 330 - Saving STL to E:\my_arm\my_arm\meshes\link_one.STL
+2021-07-20 00:15:08,623 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2021-07-20 00:15:08,623 INFO  ExportHelper.cs: 317 - base_link: Exporting STL with coordinate frame Coordinate System1
+2021-07-20 00:15:08,623 INFO  ExportHelper.cs: 322 - base_link: Reference geometry name 
+2021-07-20 00:15:08,683 INFO  ExportHelper.cs: 330 - Saving STL to E:\my_arm\my_arm\meshes\base_link.STL
+2021-07-20 00:15:09,033 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2021-07-20 00:15:09,033 INFO  ExportHelper.cs: 145 - Showing all components except previously hidden components
+2021-07-20 00:15:09,243 INFO  ExportHelper.cs: 145 - Resetting STL preferences
+2021-07-20 00:15:09,243 INFO  ExportHelper.cs: 478 - Returning STL preferences to user preferences
+2021-07-20 00:15:09,243 INFO  ExportHelper.cs: 228 - Writing URDF file to E:\my_arm\my_arm\urdf\my_arm.urdf
+2021-07-20 00:15:16,718 INFO  CSVImportExport.cs: 32 - Writing CSV file E:\my_arm\my_arm\urdf\my_arm.csv
+2021-07-20 00:15:17,108 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2021-07-20 00:15:17,108 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2021-07-20 00:15:17,108 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2021-07-20 00:15:17,108 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2021-07-20 00:15:17,118 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2021-07-20 00:15:17,118 INFO  ExportHelper.cs: 234 - Copying log file
+2021-07-20 00:15:17,128 INFO  ExportHelper.cs: 439 - Copying C:\Users\lenovo\sw2urdf_logs\sw2urdf.log to E:\my_arm\my_arm\export.log
